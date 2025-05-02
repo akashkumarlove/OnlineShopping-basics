@@ -1,3 +1,12 @@
 @import "tailwindcss";
 
+.clip-left {
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+}
+
+.clip-right {
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
 /* npx @tailwindcss/cli -i ./style.css -o ./output.css --watch */
