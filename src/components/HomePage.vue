@@ -461,21 +461,143 @@
             <!-- 5th section ends -->
              <!-- 6th section start  -->
 
-             <div class="section-6 bg-[#fafafa] pt-20">
+             <div class="section-6 bg-[#fafafa] pt-20 pb-13">
                 <div class="headind font-[Volkhov] text-4xl leading-[100%] tracking-[0] text-center text-[#484848]">This Is What Our Customers Say</div>
                 <div class="sub-heading font-[Poppins] mt-3 text-sm leading-[26px] tracking-[0] text-center text-[#8A8A8A]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis</div>
 
-                <div class="cards">
-                      
+                <div class="cards relative flex items-center justify-center mt-12">
+
+                   <div class="card-1 flex-shrink-0 left-90 relative scale-70 w-166 pt-17 pb-11 h-auto flex gap-15 p-9 pr-13  bg-white shadow-[0px_14.95px_44.86px_0px_rgba(46,33,61,0.08)] rounded-lg">
+                      <div class="left background bg-[#D9D9D9]">
+                        <div class="box relative w-50 h-46 bg-[#D9D9D9] ">
+                         <img src="../assets/home/section-6/image-1.png " class=" w-46 absolute right-0 bottom-4 "/>
+                        </div>
+                      </div>
+
+                      <div class="right text-start">
+                         <div class="content text-sm text-[#484848]">“Items That I ordered were the best investment I ever made. I can't say enough about your quality service."</div>
+                         
+                         <div class="stars flex mt-4">
+                            <div class="star-1">1</div>
+                            <div class="star-2">2</div>
+                            <div class="star-3">3</div>
+                            <div class="star-4">4</div>
+                            <div class="star-5">5</div>
+                         </div>
+
+                         <div class="seprator w-44 h-px bg-[#484848] mt-4"></div>
+                         <div class="content mt-4 text-2xl leading-[100%] tracking-[0%] font-[Volkhov] text-[#484848]">Suzan B.</div>
+                         <div class="traveler mt-4 text-sm leading-[100%] tracking-[0%] font-[Poppins] text-[#484848]">UI Designer</div>
+                      </div>
+                   </div>
+
+                   <div class="card-2 flex-shrink-0 relative z-10 w-166 pt-17 pb-11 h-auto flex gap-15 p-9 pr-13  bg-white shadow-[0px_14.95px_44.86px_0px_rgba(46,33,61,0.08)] rounded-lg">
+                      <div class="left background bg-[#D9D9D9]">
+                        <div class="box relative w-50 h-46 bg-[#D9D9D9] ">
+                         <img src="../assets/home/section-6/image-2.png " class=" w-46 absolute right-0 bottom-4 "/>
+                        </div>
+                      </div>
+
+                      <div class="right text-start">
+                         <div class="content text-sm text-[#484848]">"You won't regret it. I would like to personally thank you for your outstanding product. Absolutely wonderful!"</div>
+                         
+                         <div class="stars flex mt-4">
+                            <div class="star-1">1</div>
+                            <div class="star-2">2</div>
+                            <div class="star-3">3</div>
+                            <div class="star-4">4</div>
+                            <div class="star-5">5</div>
+                         </div>
+
+                         <div class="seprator w-44 h-px bg-[#484848] mt-4"></div>
+                         <div class="content mt-4 text-2xl leading-[100%] tracking-[0%] font-[Volkhov] text-[#484848]">James K.</div>
+                         <div class="traveler mt-4 text-sm leading-[100%] tracking-[0%] font-[Poppins] text-[#484848]">Traveler</div>
+                      </div>
+                   </div>
+
+                   <div class="card-3 right-89 flex-shrink-0 relative scale-70 w-166 pt-17 pb-11 h-auto flex gap-15 p-9 pr-13  bg-white shadow-[0px_14.95px_44.86px_0px_rgba(46,33,61,0.08)] rounded-lg">
+                      <div class="left background bg-[#D9D9D9]">
+                        <div class="box relative w-50 h-46 bg-[#D9D9D9] ">
+                         <img src="../assets/home/section-6/image-3.png " class=" w-46 absolute right-0 bottom-4 "/>
+                        </div>
+                      </div>
+
+                      <div class="right text-start">
+                         <div class="content text-sm text-[#484848]">“Just what I was looking for. Thank you for making it painless, pleasant and most of all hassle free! All products are great.”</div>
+                         
+                         <div class="stars flex mt-4">
+                            <div class="star-1">1</div>
+                            <div class="star-2">2</div>
+                            <div class="star-3">3</div>
+                            <div class="star-4">4</div>
+                            <div class="star-5">5</div>
+                         </div>
+
+                         <div class="seprator w-44 h-px bg-[#484848] mt-4"></div>
+                         <div class="content mt-4 text-2xl leading-[100%] tracking-[0%] font-[Volkhov] text-[#484848]">Megen W.</div>
+                         <div class="traveler mt-4 text-sm leading-[100%] tracking-[0%] font-[Poppins] text-[#484848]">UI Designer</div>
+                      </div>
+                   </div>
+
+                </div>
+
+                <div class="button flex justify-center gap-4 mt-13">
+                    <div class="left">11</div>
+                    <div class="right">22</div>
                 </div>
              </div>
+
+             <!-- 6th section ends  -->
+
+             <!-- 7th section start -->
+
+             <div class="section-7 flex px-50 items-center mt-28 mb-9">
+                <div class="left">
+                   <img src="../assets/home/section-7/image-left.png" class="w-130"/>
+                </div>
+
+                <div class="middle">
+                        <div class="heading font-[Volkhov] mb-5 text-4xl leading-[100%] tracking-[0%] text-center text-[#484848]">Subscribe To Our Newsletter</div>
+                        <div class="para font-[Poppins] text-sm leading-[26px] tracking-[0%] text-center text-[#8A8A8A]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </div>
+                        <div class=" shadow-[0px_3.02px_3.15px_#00000002,0px_13.28px_6.52px_#00000004,0px_32.6px_13px_#00000005,0px_62.79px_25.48px_#00000006,0px_105.65px_46.85px_#00000008,0px_163px_80px_#0000000A] text-start mt-12 email font-[Poppins] text-base leading-[26px] tracking-[0%] text-[#8A8A8A]">michael@ymail.com</div>
+
+                        <div class="button mt-11">
+                        <button class="px-10 p-3 cursor-pointer shadow-lg text-sm font-[poppins] rounded-lg bg-[#000000] text-white">Subscribe Now</button>
+                        </div>
+                </div>
+                   <img src="../assets/home/section-7/image-right.png" class="w-65"/>
+                <div class="right">
+
+                </div>
+             </div>
+ 
+            <!-- 7th section ends -->
+
+            <!-- footer start  -->                  
+
+            <div class="footer">
+                 <div class="seprator border border-[#DEDFE1] mb-7"></div>
+                 <div class="content flex mx-60 justify-between">
+                    <div class="left">
+                        <div class="heading font-[Volkhov] text-2xl leading-[100%] tracking-[0%] text-[#484848]">FASCO</div>
+                    </div>
+
+                    <div class="right flex gap-7 font-[Poppins] font-normal text-sm leading-[100%] tracking-[0%] text-[#484848]">
+                        <div class="item-1">Support Center</div>
+                        <div class="item-2">Invoicing</div>
+                        <div class="item-3">Contract</div>
+                        <div class="item-4">Careers</div>
+                        <div class="item-5">Blog</div>
+                        <div class="item-6">FAQ,s</div>
+                    </div>
+                 </div>
+
+                 <div class="copyright mt-9 font-[Poppins] text-[10px] leading-[26px] tracking-[0%] text-center text-[#484848]">Copyright © 2022 Xpro . All Rights Reseved.</div>
+            </div>
+
+            <!-- fotter ends  -->
+
               
-            
-
-
-
-            
-
 
         </div>
     </div>
