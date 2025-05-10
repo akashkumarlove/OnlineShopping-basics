@@ -2,15 +2,15 @@
     <div class="wrapper w-screen h-screen box-border bg-white">
         <div class="main">
           <!-- 1st section start -->
-            <div class="section-1 px-59">
+            <div class="section-1 lg:px-59 px-2 flex-row md:justify-center md:items-center md:px-10">
                 <!-- nav--bar -->
-                <div class="nav-bar flex items-center justify-between">
+                <div class="nav-bar flex items-center  justify-between">
                     <div class="left-part">
-                        <div class="heading text-4xl leading-[100%] tracking-[0%] font-['Volkhov']">FASCO</div>
+                        <div class="heading text-3xl md:text-4xl leading-[100%] tracking-[0%] font-['Volkhov']">FASCO</div>
                     </div>
 
                     <div
-                        class="right-part flex space-x-10 font-normal text-base leading-[100%] tracking-[0%] font-[Poppins]">
+                        class=" hidden right-part text-sm md:flex space-x-10 font-normal md:text-base leading-[100%] tracking-[0%] font-[Poppins]">
                         <button class="cursor-pointer">Home</button>
                         <button class="cursor-pointer">Deals</button>
                         <button class="cursor-pointer">New Arrivals</button>
@@ -23,21 +23,21 @@
                 </div>
                  
                 <!-- hero-section -->
-                <div class="hero-section flex flex-col md:flex-row mt-12 space-y-8 md:space-y-0 md:space-x-7">
+                <div class="hero-section flex space-x-8 mt-15">
                     <!-- Left Section -->
-                    <div class="left w-full md:w-1/3 h-140 rounded-lg bg-[#E0E0E0] relative">
-                        <img src="../assets/home/section-1/left.png" class="w-full md:w-70 absolute bottom-0" />
+                    <div class="left w-full md:py-75 md:w-1/3 rounded-lg bg-[#E0E0E0] relative">
+                        <img src="../assets/home/section-1/left.png" class=" absolute bottom-0" />
                     </div>
 
                     <!-- Center Section -->
-                    <div class="center w-full md:w-1/3 relative text-center">
+                    <div class="center w-1/3 relative text-center">
                         <img src="../assets/home/section-1/centar-top.png" class="mx-auto" />
                         <div
-                            class="heading-1 font-medium text-4xl md:text-7xl leading-[100%] tracking-[-4%] text-[#484848] font-[Poppins] mt-6">
+                            class="heading-1 font-medium text-3xl md:text-5xl lg:text-7xl leading-[100%] tracking-[-4%] text-[#484848] font-[Poppins] mt-6">
                             ULTIMATE
                         </div>
                         <div
-                            class="heading-2 font-medium text-6xl md:text-9xl leading-[100%] tracking-[-5.5%] text-[#484848] font-[Poppins]">
+                            class="heading-2 font-medium text-6xl md:text-7xl lg:text-9xl leading-[100%] tracking-[-5.5%] text-[#484848] font-[Poppins]">
                             SALE
                         </div>
                         <div
@@ -52,8 +52,8 @@
                     </div>
 
                     <!-- Right Section -->
-                    <div class="right w-full md:w-1/3 h-140 rounded-lg bg-[#E0E0E0] relative flex justify-center">
-                        <img src="../assets/home/section-1/right.png" class="w-full md:w-45 absolute bottom-0" />
+                    <div class="right md:w-1/3 w-full md:py-75 rounded-lg bg-[#E0E0E0] relative flex justify-center">
+                        <img src="../assets/home/section-1/right.png" class=" sm:w-30 md:w-47 absolute bottom-0" />
                     </div>
                 </div>
 
@@ -78,12 +78,12 @@
               <!-- 1st section ends -->
              <!-- 2nd section start -->
 
-            <div class="section-2 bg-[#FAFAFA] flex pl-59 pb-27 pt-30 relative">
-                <div class="left w-[470px]">
+            <div class="section-2 bg-[#FAFAFA] pl-3 md:flex sm:pl-10 lg:pl-59 pb-27 pt-30 relative">
+                <div class="left sm:w-[45%] w-full">
                     <div
                         class=" text-start heading font-[Volkhov] text-4xl leading-[100%] tracking-[0%] text-[#484848]">
                         Deals Of The Month</div>
-                    <div class="mt-7 text-start content font-[poppins] text-sm text-[#8A8A8A]">Lorem ipsum dolor sit
+                    <div class="mt-7 text-start wrap-break-word content font-[poppins] text-sm text-[#8A8A8A]">Lorem ipsum dolor sit
                         amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem.
                         Scelerisque duis ultrices sollicitudin </div>
 
@@ -132,7 +132,7 @@
                     </div>
                 </div>
 
-                  <div class="arrow absolute bottom-0 left-150 flex space-x-2">
+                  <div class="arrow hidden absolute bottom-0 left-150 sm:flex space-x-2">
                     <div class="arrow-1 flex">
                         <div class="line ">1</div>
                         <div class="circle">2</div>
@@ -144,10 +144,10 @@
                     </div>
                   </div>
 
-                <div class="right flex space-x-5 pl-24">
+                <div class="right flex space-x-5 pl-2 pt-3 sm:pt-0 sm:pl-24">
                     <div class="image-1 relative">
                         <img src="../assets/home/section-2/image-1.png" />
-                        <div class="card absolute w-45 h-28  bg-white backdrop-blur-[7px] left-7 bottom-5 flex-col">
+                        <div class="card absolute lg:flex hidden w-45 h-28  bg-white backdrop-blur-[7px] left-7 bottom-5 flex-col">
                             <div class="heading flex justify-center items-center space-x-1 mt-7">
                                 <div class="">01</div>
                                 <div class="line border border-[#484848] w-5"></div>
@@ -173,7 +173,7 @@
                         </div>
 
                         <div class="points flex gap-3 mt-12">
-                            <div>0</div>
+                             <div>0</div>
                              <div>0</div>
                              <div>0</div>
                              <div>0</div>
@@ -192,7 +192,7 @@
 
              <!-- 3rd section start -->
       
-             <div class="section-3 mt-28 px-59">
+             <div class="section-3 mt-28 md:px-10 px-2 lg:px-59">
                 <div class="heading font-[Volkhov] font-normal text-4xl leading-[100%] tracking-[0%] text-center text-[#484848]">New Arrivals</div>
                 <div class="sub-heading text-[#8A8A8A] mt-5 text-sm font-[poopins leading-[20px] tracking-[0%] text-center]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis <br/> ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </div>
                 <div class="buttons flex gap-4 justify-between mt-10">
@@ -203,7 +203,7 @@
                     <button class="px-8 p-3 rounded-lg cursor-pointer bg-[#fafafa] text-[#8A8A8A] font-poppins">Discount Deals</button>
                 </div>
 
-                <div class="hero-section flex flex-wrap gap-10">
+                <div class="hero-section flex justify-center flex-wrap gap-10">
                     <div class="card-1 w-74 h-auto justify-center p-5 rounded-[10px] bg-white shadow-[0px_40px_90px_0px_#0000000F]">
                         <img src="../assets/home/section-3/Images-1.png"/>
                         <div class="top-items flex justify-between pt-3">
@@ -317,11 +317,11 @@
             <div class="section-4 mt-30">
                 <div class="hero-section flex bg-black">
                     <div class="left w-1/2 bg-[#F8F8F8] clip-left">
-                     <div class="image relative">
-                        <img src="../assets/home/section-4/left-image.png" class="w-135 ml-33"/>
+                     <div class="image relative flex flex-row justify-center w-full sm:h-auto h-screen items-center">
+                        <img src="../assets/home/section-4/left-image.png" class=" h-auto object-contain w-full lg:max-w-135 lg:ml-33"/>
                      </div>
                   
-                  <div class="points relative">
+                  <div class="points relative lg:flex hidden">
                      <div class="point-1">
                         <div class="absolute circul w-4 h-4 right-80 bottom-100 rotate-180 border border-black bg-white/60 rounded-full backdrop-blur-[20px]"></div>
                         <div class="line absolute right-50 bottom-102 w-30 h-px bg-black"></div>
@@ -372,7 +372,7 @@
                </div>
 
                <div class="right w-1/2 bg-[#DADADA] clip-right">
-                  <div class="box w-[534px] text-start pl-22 pt-13">
+                  <div class="box w-full lg:w-[534px] text-start pl-22 pt-13">
                     <div class="small-heading font-[Poppins] text-sm leading-[100%] tracking-[0%] text-[#767676]">Women Collection</div>
                     <div class="large-heading mt-5 font-[Volkhov] text-4xl leading-[100%] tracking-[0%] text-[#484848]">Peaky Blinders</div>
                     <div class="description mt-5 font-[Poppins] font-normal text-sm leading-[100%] tracking-[0%] underline text-black">DESCRIPTION</div>
@@ -394,8 +394,8 @@
                 </div>
                
 
-               <div class="footer px-59 mt-14 mb-14">
-                  <div class="features flex gap-13 justify-between">
+               <div class="footer lg:px-59 mt-14 px-4 mb-14">
+                  <div class="features flex flex-wrap gap-13 justify-between">
                     
                     <div class="features-1">
                         <div class="icon-text flex text-start">
@@ -446,15 +446,15 @@
                     <div class="heading font-[Volkhov] text-4xl leading-[100%] tracking-[0] text-center text-[#484848]">Follow Us On Instagram</div>
                     <div class="sub-heading mt-5 font-poppins text-sm text-center text-[#8A8A8A]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duisc<br/> ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </div>
 
-                    <div class="images flex mt-20 items-center">
-                        <img src="../assets/home/section-5/image-1.png" class="w-59 h-60 "/>
-                        <img src="../assets/home/section-5/image-2.png" class="w-59 h-75 " />
-                        <img src="../assets/home/section-5/image-3.png" class="w-59 h-60 "/>
-                        <img src="../assets/home/section-5/image-4.png" class="w-59 h-75 "/>
-                        <img src="../assets/home/section-5/image-5.png" class="w-59 h-60 "/>
-                        <img src="../assets/home/section-5/image-6.png" class="w-59 h-75 "/>
-                        <img src="../assets/home/section-5/image-7.png" class="w-59 h-60 "/>
-                    </div>
+                    <div class="images flex flex-wrap gap-4 lg:gap-0 justify-center mt-20">
+  <img src="../assets/home/section-5/image-1.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+  <img src="../assets/home/section-5/image-2.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+  <img src="../assets/home/section-5/image-3.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+  <img src="../assets/home/section-5/image-4.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+  <img src="../assets/home/section-5/image-5.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+  <img src="../assets/home/section-5/image-6.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+  <img src="../assets/home/section-5/image-7.png" class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-[205px] h-auto object-contain" />
+</div>
                 </div>
             </div>
 
@@ -467,9 +467,9 @@
 
                 <div class="cards relative flex items-center justify-center mt-12">
 
-                   <div class="card-1 flex-shrink-0 left-90 relative scale-70 w-166 pt-17 pb-11 h-auto flex gap-15 p-9 pr-13  bg-white shadow-[0px_14.95px_44.86px_0px_rgba(46,33,61,0.08)] rounded-lg">
+                   <div class="card-1 flex-shrink-0 left-90 relative scale-70 w-auto sm:w-166 pt-17 pb-11 h-auto flex gap-15 p-9 pr-13  bg-white shadow-[0px_14.95px_44.86px_0px_rgba(46,33,61,0.08)] rounded-lg">
                       <div class="left background bg-[#D9D9D9]">
-                        <div class="box relative w-50 h-46 bg-[#D9D9D9] ">
+                        <div class="box relative flex items-center justify-center w-50 h-46 bg-[#D9D9D9] ">
                          <img src="../assets/home/section-6/image-1.png " class=" w-46 absolute right-0 bottom-4 "/>
                         </div>
                       </div>
@@ -551,9 +551,9 @@
 
              <!-- 7th section start -->
 
-             <div class="section-7 flex px-50 items-center mt-28 mb-9">
-                <div class="left">
-                   <img src="../assets/home/section-7/image-left.png" class="w-130"/>
+             <div class="section-7 flex lg:px-50 sm:px-20 items-center mt-28 mb-9">
+                <div class="left w-135">
+                   <img src="../assets/home/section-7/image-left.png" class="w-full"/>
                 </div>
 
                 <div class="middle">
@@ -565,9 +565,9 @@
                         <button class="px-10 p-3 cursor-pointer shadow-lg text-sm font-[poppins] rounded-lg bg-[#000000] text-white">Subscribe Now</button>
                         </div>
                 </div>
-                   <img src="../assets/home/section-7/image-right.png" class="w-65"/>
-                <div class="right">
-
+                   
+                <div class="right w-130">
+                     <img src="../assets/home/section-7/image-right.png" class=""/>
                 </div>
              </div>
  
@@ -577,7 +577,7 @@
 
             <div class="footer">
                  <div class="seprator border border-[#DEDFE1] mb-7"></div>
-                 <div class="content flex mx-60 justify-between">
+                 <div class="content flex lg:mx-60 md:mx-3 justify-between">
                     <div class="left">
                         <div class="heading font-[Volkhov] text-2xl leading-[100%] tracking-[0%] text-[#484848]">FASCO</div>
                     </div>
